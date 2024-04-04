@@ -1,0 +1,80 @@
+body{
+  font-family: Arial;
+  background-color: #F4F4F4;
+  padding: 30px;
+  color: #333;
+  background-image: url(./img/BG.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  margin-bottom: 300px;
+
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #EFEFEF;
+  padding: 20px 30px;
+  border-radius: 10px;
+  
+}
+h1 {
+  text-align: center;
+}
+h2{
+  margin-bottom: 10px;
+}
+p {
+  margin: 10px 0;
+}
+input {
+  box-sizing: border-box;
+}
+button {
+  background-color: #333974;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 10px;
+  transition: .5s;
+  cursor: pointer;
+  opacity: .8;
+}
+button:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+.todo_form{
+  padding-bottom: 1.5rem;
+}
+input, select{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.completar {
+  background-color: #5cb85c;
+}
+.excluir {
+  background-color: #d9534f;
+}
+
+.todo {
+  background-color: #fff;
+  padding: 10px ;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+ 
+}
+.todo_list {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cecece;
+}
