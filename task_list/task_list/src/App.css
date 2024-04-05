@@ -41,6 +41,7 @@ button {
   transition: .5s;
   cursor: pointer;
   opacity: .8;
+  margin-right: 5px;
 }
 button:hover{
   cursor: pointer;
@@ -77,4 +78,19 @@ input, select{
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #cecece;
+}
+
+.filter, .search {
+border-bottom: 1px solid #555;
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.filter-options div {
+  flex: 1 1 0;
 }
